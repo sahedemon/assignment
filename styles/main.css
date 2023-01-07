@@ -1,0 +1,279 @@
+
+/* .top-section{
+    width: 100%;
+    margin: 0 auto;} */
+
+.top{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("./images/donation4.jpg"),linear-gradient(rgb(45, 45, 54),rgb(37, 37, 75));
+    
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+
+}
+
+.font{
+    font-size: 60px;
+    font-weight: 1200;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto'
+}
+.buttan-container{
+    color: #FFFFFF;     
+    font-weight: 500;
+    font-size: 20px;
+    height: 6opx;
+    background: #ff5959;
+    border-radius: 5px;
+    border: 0;
+    padding: 12px 18px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.center{
+    text-align: center;
+    color: #121212;
+}
+.center-color{
+    text-align: center;
+    color: #d1d1d1;
+}
+/* payment section  */
+.payment-section{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    margin-left: 30%;
+
+    
+    
+    
+}
+
+.payment-section-div{
+    background-color: #fafafa;
+    margin: 12px;
+    padding: 10px 20px;
+}
+
+.selected-payment-div2{
+    background-color: #ffeeee;
+    margin: 12px;
+    padding: 10px 20px;
+    border: solid #ffc1c1 2px;
+    border-radius: 6px;
+}
+.taka{
+    color: #d3d3d3;
+    text-align: center;
+}
+.buttan-container1{
+    color: whitesmoke;     
+    font-weight: 500;
+    font-size: 20px;
+    height: 6opx;
+    background: #ff5959;
+    border-radius: 5px;
+    border: 0;
+    padding: 12px 18px;
+    align-items: center;
+    margin-left: 600px;
+} 
+/* donet section */
+.donat-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 10vh;
+    
+}
+.donat-desciription{
+    text-align: center;
+    color: #d3d3d3;
+}
+/* helt section */
+.poor-famliy{
+    display: flex;
+   text-align: center;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.img{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.famliy{
+    background-color:#edf5f6 ;
+    margin: 5px;
+    
+    padding: 24px;
+    font-size: 20px;
+    
+    text-align: start;  
+}
+
+.famliy1{
+    background-color:#ffeeee;
+    margin: 30px;
+    margin-right: 25px;
+    padding: 24px;
+    font-size: 20px;
+    text-align: start; 
+    
+}
+.famliy2{
+    background-color: #fff4d6 ;
+    margin: 25px;
+    padding: 24px;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: start; 
+    
+}
+.photo-section{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 70px;
+}
+
+.title-section{
+width: 45%;
+align-items: center;
+}
+
+.title-section2{
+    width: 35%;
+    align-items: center;
+    }
+    
+.img1{
+    width: 45%;
+    background-image: url("./images/donation0.jpg");
+    border-radius: 6px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2{
+    width: 45%;
+    background-image: url("./images/donation2.jpg");
+    border-radius: 6px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-section1{
+    font-size: 45px;
+    font-family: "Roboto";
+}
+
+.title-section p{
+    font-size: 22px;
+    color: #707070;
+}
+
+.title-section2 p{
+    font-size: 22px;
+    color: #707070;
+}
+.info-title{
+    padding-top: 24px;
+        text-align: center;
+        font-size: 35px;
+        font-family: "Roboto";
+}
+.info-desciription{
+    text-align: center;
+    font-size: 22px;
+    color: #707070;
+    padding-bottom: 50px;
+}
+
+.email-parent{
+    background-color: #d9d9d9;
+    height: 45px;
+    border-radius: 6px;
+    width: 54%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.email-in{
+    width: 100%;
+    background-color: #d9d9d9;
+    border: solid #d9d9d9;
+    margin: 0px;
+    border-radius: 6px;
+    padding-left: 12px;
+    outline: none;
+}
+.sub-button{
+    margin: 0px;
+    color: #FFFFFF;     
+    font-weight: 500;
+    font-size: 15px;
+    background: #ff5959;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 0;
+    padding: 12px 40px;
+    align-items: center;
+}
+
+.newletter-background{
+    background-color: #fff4d6;
+    width: 56%;
+    margin: 0 auto;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.footer{
+    padding: 20px;
+    background-color: black;
+    margin-bottom: 0px;
+}
+.footer-sub{
+    color: white;
+    text-align: center;
+}
+.footer-title{
+    font-family: 'Lobster';
+    margin: 0 auto;
+    font-size: 35px;
+    text-align: center;
+    color: #ff5959;
+    padding: 12px;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+  
+html{
+    margin: 0px;
+    padding: 0px;
+}
